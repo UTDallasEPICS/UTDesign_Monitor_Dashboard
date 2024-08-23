@@ -13,12 +13,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
     "nuxt": "^3.13.0",
+<<<<<<< HEAD
     "vue": "latest",
     "vue-router": "latest"
 =======
 =======
     "nuxt": "^3.13.0",
 >>>>>>> 2b353d5 (nuxt not installed; nuxt added to json)
+=======
+    "pug": "^3.0.3",
+>>>>>>> 2dc9c80 (installed pug)
     "vue": "^3.4.29"
   },
   "devDependencies": {
