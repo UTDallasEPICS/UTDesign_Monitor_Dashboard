@@ -11,10 +11,14 @@
   },
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
 =======
+=======
+    "nuxt": "^3.13.0",
+>>>>>>> 2b353d5 (nuxt not installed; nuxt added to json)
     "vue": "^3.4.29"
   },
   "devDependencies": {
