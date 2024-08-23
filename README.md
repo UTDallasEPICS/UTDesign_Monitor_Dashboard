@@ -33,7 +33,9 @@ npm run build
 ```
 
 ### Notes
+```bash
 npx prisma init
+```
 
 ✔ Your Prisma schema was created at prisma/schema.prisma
   You can now open it in your favorite editor.
@@ -49,3 +51,7 @@ Next steps:
 
 More information in our documentation:
 https://pris.ly/d/getting-started
+
+### SQLite Install
+Go to `https://sqlite.org/download.html` and download the **SQLite Bundle** for Windows if your machine is 64-bit (otherwise use the 32-bit version). If you are running a Mac, CTRL + F "Bundle" and install that. 
+
