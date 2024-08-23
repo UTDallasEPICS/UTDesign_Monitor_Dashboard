@@ -18,7 +18,12 @@ logs
 .fleet
 .idea
 
+<<<<<<< HEAD
 # Local env files
 .env
 .env.*
 !.env.example
+=======
+*.tsbuildinfo
+dev.db
+>>>>>>> 71ca1c7 (SQLite added to Prisma)
