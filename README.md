@@ -55,3 +55,4 @@ https://pris.ly/d/getting-started
 ### SQLite Install
 Go to `https://sqlite.org/download.html` and download the **SQLite Bundle** for Windows if your machine is 64-bit (otherwise use the 32-bit version). If you are running a Mac, CTRL + F "Bundle" and install that. 
 
+Allison is cool
