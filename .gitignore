@@ -29,3 +29,5 @@ coverage
 
 *.tsbuildinfo
 dev.db
+.env
+env.d.ts
