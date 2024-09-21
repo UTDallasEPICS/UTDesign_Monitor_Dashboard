@@ -14,6 +14,7 @@
 <<<<<<< HEAD
     "nuxt": "^3.13.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "vue": "latest",
     "vue-router": "latest"
 =======
@@ -36,5 +37,9 @@
     "vite": "^5.3.1",
     "vue-tsc": "^2.0.21"
 >>>>>>> d727b3f (init tailwindcss)
+=======
+    "vue": "latest",
+    "vue-router": "latest"
+>>>>>>> b0a31a5 (Nuxt init)
   }
 }

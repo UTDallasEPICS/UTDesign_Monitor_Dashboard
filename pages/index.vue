@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <script setup lang="ts">
 
 
@@ -18,3 +19,14 @@ div.mx-auto.mt-7.absolute
       NuxtLink(to="/admin") Admin
 NuxtPage
 </template>
+=======
+<script lang="ts">
+
+</script>
+
+<template>
+    <div>
+        <h1>Hello, World</h1>
+    </div>
+</template>
+>>>>>>> b0a31a5 (Nuxt init)
