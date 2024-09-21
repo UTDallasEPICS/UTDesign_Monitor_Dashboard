@@ -1,47 +1,17 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
-<template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+<template lang="pug">
+div.max-w-min.mx-auto.mt-7.absolute
+  div.max-w-min.mx-auto.gap-2
+    button
+      NuxtLink.items-center.pt-5.px-2.py-2.text-sm.font-medium.rounded-md.cursor-pointer.no-border.relative(style="text-align:center;" class='text-gray-999 hover:text-black transition duration-300' to='/' active-class="active") Home
+    button 
+      NuxtLink(to='/my-dashboards') my dashboards
+    button
+      NuxtLink(to='/shared-dashboards') shared dashboards
+    button
+      NuxtLink(to='/new-dashboard') new dashboard
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
