@@ -10,36 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-<<<<<<< HEAD
-<<<<<<< HEAD
+    "@prisma/nuxt": "^0.0.35",
     "nuxt": "^3.13.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
+    "prisma": "^5.19.1",
+    "sqlite3": "^5.1.7",
     "vue": "latest",
     "vue-router": "latest"
-=======
-=======
-    "nuxt": "^3.13.0",
->>>>>>> 2b353d5 (nuxt not installed; nuxt added to json)
-=======
-    "pug": "^3.0.3",
->>>>>>> 2dc9c80 (installed pug)
-    "vue": "^3.4.29"
   },
   "devDependencies": {
-    "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.14.5",
-    "@vitejs/plugin-vue": "^5.0.5",
-    "@vue/tsconfig": "^0.5.1",
-    "npm-run-all2": "^6.2.0",
-    "tailwindcss": "^3.4.10",
-    "typescript": "~5.4.0",
-    "vite": "^5.3.1",
-    "vue-tsc": "^2.0.21"
->>>>>>> d727b3f (init tailwindcss)
-=======
-    "vue": "latest",
-    "vue-router": "latest"
->>>>>>> b0a31a5 (Nuxt init)
+    "@prisma/client": "^5.19.1"
   }
 }

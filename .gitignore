@@ -22,8 +22,5 @@ logs
 .env
 .env.*
 !.env.example
-<<<<<<< HEAD
 *.tsbuildinfo
 dev.db
-=======
->>>>>>> b0a31a5 (Nuxt init)
